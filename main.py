@@ -6,9 +6,9 @@ app = Flask(__name__)
 def hello():
 	return "Hello World!"
 
-@app.route("/ruuuuuler")
+@app.route("/hello")
 def bjorn():
-    return "Bjorn knows S2I"
+    return "Hello from python-flask-sti build image"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
