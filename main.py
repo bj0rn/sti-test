@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/ruuuuuler")
 def bjorn():
-    return "Bjørn kan nå S2I"
+    return "Bjorn kan nå S2I"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
